@@ -1,0 +1,31 @@
+
+.CTA{
+    align-items: center;
+}
+.row{
+    width: 100%;
+}
+.tagline{
+    background-image: linear-gradient(to right,violet,indigo,blue,green);
+    -webkit-background-clip: text;
+    background-clip: text;
+    color: transparent;
+  
+    display: inline;
+}
+.header{
+    height: 80px;
+    align-items: center;
+}
+.header div:hover{
+    transform: scale(1.1);
+    transition-duration: 700ms;
+}
+.header div{
+    transition-duration: 200ms;
+    cursor: pointer;
+}
+.tagline:hover{
+    background-image: linear-gradient(to right,red,pink,blue,green);
+   
+}

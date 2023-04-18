@@ -1,0 +1,32 @@
+.card i {
+    font-size: 70px;
+    transition-duration: 300ms;
+}
+
+.icon {
+    text-align: center;
+}
+
+.card {
+    padding: 20px;
+    margin: 10px;
+    border: none;
+    transition-duration: 600ms;
+}
+
+.card:hover {
+    background-color: aliceblue;
+    transition-duration: 600ms;
+}
+
+.card:hover i {
+    font-size: 80px;
+    transition-duration: 300ms;
+    color: rgb(0, 145, 255);
+}
+
+.services {
+
+    border: 1px solid rgba(216, 216, 216, 0.5);
+    border-radius: 10px;
+}

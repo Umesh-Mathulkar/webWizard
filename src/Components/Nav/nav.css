@@ -1,0 +1,38 @@
+.navbar-toggler{
+    width: 100%;
+}
+.sideNav{
+    position: fixed;
+    right: 0;
+    bottom: 0;
+    list-style-type: none;
+   backdrop-filter: blur(10px);
+   filter: blur(1px);
+   background-color: rgba(230, 230, 230, 0.5);
+   border-radius: 10px;
+   padding: 2%;
+   transition-duration: 400ms;
+   z-index: 1;
+}
+.sideNav a{
+    text-decoration: none;
+    color: black;
+    padding: 1%;
+    line-height: 30px;
+}
+.sideNav:hover{
+    filter: blur(0);
+    transition-duration: 300ms;
+}
+.sideNav i{
+    padding: 10px;
+    transition-duration: 300ms;
+}
+.sideNav i:hover{
+    font-size: 20px;
+    transition-duration: 300ms;
+}
+.nav-link:hover{
+ transform: scale(1.1);
+ 
+}

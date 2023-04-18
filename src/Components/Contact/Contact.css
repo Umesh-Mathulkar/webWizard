@@ -1,0 +1,15 @@
+.contact input{
+  width: 100%
+}
+.contact{
+    width: 50%;
+    border: 1px solid rgba(216, 216, 216, 0.5);
+    padding: 2%;
+    border-radius: 10px;
+}
+
+@media only screen and (max-width:767px) {
+  .contact{
+    width: 100%;
+  }
+}
